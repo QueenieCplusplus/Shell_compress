@@ -90,6 +90,12 @@ Compress &amp; Uncompress in Unix-liked OS
 
 * Execution
 
+        $ compress < file name >
+        
+        $ zcat < file name >
+        
+        $ zgrep < word_u_wanna_search_for > < file name >
+
         $ ln -s zcat zmore
         $ ln -s zcat zgrep
 
