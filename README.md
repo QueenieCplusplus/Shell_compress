@@ -17,5 +17,8 @@ Compress &amp; Uncompress in Unix-liked OS
 
 # Execution
 
+    $ ln -s zcat zmore
+    $ ln -s zcat zgrep
+
 
 # Related Info
