@@ -99,6 +99,7 @@ Compress &amp; Uncompress in Unix-liked OS
         $ ln -s zcat zmore
         $ ln -s zcat zgrep
 
+        $ ls -l < file name>*
 
 Related Info
  
