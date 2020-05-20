@@ -57,8 +57,8 @@ Compress &amp; Uncompress in Unix-liked OS
 
     esac
 
-    if [ ! -z "$zlist"]; then
-        eval $Z $zlist
+    if [ ! -z "$zlist"]; then # (d)
+        eval $Z $zlist # (e)
 
     fi 
 
@@ -75,13 +75,15 @@ Compress &amp; Uncompress in Unix-liked OS
 
 * Syntax
 
-  * (a)
+  * (a) sed 's/\.Z$//'
   
-  * (b)
+  * (b) $zlist \"$arg\"
   
-  * (c)
+  * (c) >&2
   
-  * (d)
+  * (d) -z
+  
+  * (e) eval
 
 
 * Execution
