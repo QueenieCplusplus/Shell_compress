@@ -75,6 +75,8 @@ Compress &amp; Uncompress in Unix-liked OS
 
 * Syntax
 
+(to be wait for check...)
+
   * (a) sed 's/\.Z$//'
   
   * (b) $zlist \"$arg\"
