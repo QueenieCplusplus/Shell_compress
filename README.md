@@ -86,8 +86,12 @@ Compress &amp; Uncompress in Unix-liked OS
 
 * Execution
 
-    $ ln -s zcat zmore
-    $ ln -s zcat zgrep
+        $ ln -s zcat zmore
+        $ ln -s zcat zgrep
 
 
-# Related Info
+Related Info
+ 
+軟連結與硬連結：
+軟連
+
