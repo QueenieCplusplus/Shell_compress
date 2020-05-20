@@ -15,4 +15,7 @@ Compress &amp; Uncompress in Unix-liked OS
 # Syntax
 
 
+# Execution
+
+
 # Related Info
