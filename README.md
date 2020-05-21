@@ -19,6 +19,10 @@ Compress &amp; Uncompress in Unix-liked OS
    
       取代結果輸出，不改變檔案內容。
       
+   * echo old old | sed s/old/new/2
+      
+      可使用 flag 如 g 或是數字，讓同行字針對特定第幾比符合比對的結果可以進行替換。
+          
    * sed -i
    
       直接在檔案內容中進行操作。
