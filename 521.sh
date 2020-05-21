@@ -3,9 +3,9 @@
 
 # zcat, zmore, zgrep-- 此腳本使用三組符號（軟連結）或是硬連結
 
-Z = 'compress'; uz = 'uncompress'; zlist = ''
-gz = 'gzip'; ugz = 'ungzip'; gzlist = ''
-bz = 'bzip2'; ubz = 'unbzip2' blist = ''
+Z='compress'; uz='uncompress'; zlist=''
+gz='gzip'; ugz='ungzip'; gzlist=''
+bz='bzip2'; ubz='unbzip2' blist=''
 
 # 隔離檔案名稱
 # 藉由副檔名檢查是否為壓縮檔
@@ -17,16 +17,16 @@ do
  if [ -f "$arg" ]; then
     case "$arg" in
         *.Z) $uz "$arg" # to uncompress file
-		arg = "$(echo $arg | sed 's/\.Z$//')" # (a)
-		zlist = "$zlist \"$arg\"" # (b)
+		arg="$(echo $arg | sed 's/\.Z$//')" # (a)
+		zlist="$zlist \"$arg\"" # (b)
 	     ;;
 	*.gz) $ugz "$arg"
-	      arg = "$(echo $arg | sed 's/\.gz$//')"
-	      gzlist = "$gzlist \"$arg\""
+	      arg="$(echo $arg | sed 's/\.gz$//')"
+	      gzlist="$gzlist \"$arg\""
              ;;
 	*.bz2) $ubz "$arg"
-	       arg = "$(echo $arg | sed 's/\.bz2$//')"
-	       bzlist = "bzlist \"$arg\""
+	       arg="$(echo $arg | sed 's/\.bz2$//')"
+	       bzlist="bzlist \"$arg\""
 	     ;;
     esac
  fi
