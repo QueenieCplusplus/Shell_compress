@@ -5,7 +5,7 @@ Compress &amp; Uncompress in Unix-liked OS
 
 https://charleslin74.pixnet.net/blog/post/419884144
 
-# Common Tools
+# Common Compress Tools
 
 * compress and its object file is .z in extension name.
 
