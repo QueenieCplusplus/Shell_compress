@@ -34,17 +34,17 @@ https://charleslin74.pixnet.net/blog/post/419884144
         if [ -f "$arg" ]; then
            case "$arg" in
                *.Z) $uz "$arg" # to uncompress file
-               arg = "$(echo $arg | sed 's/\.Z$//')" # (a)
-               zlist = "$zlist \"$arg\"" # (b)
-                ;;
-           *.gz) $ugz "$arg"
-                 arg = "$(echo $arg | sed 's/\.gz$//')"
-                 gzlist = "$gzlist \"$arg\""
-                    ;;
-           *.bz2) $ubz "$arg"
-                  arg = "$(echo $arg | sed 's/\.bz2$//')"
-                  bzlist = "bzlist \"$arg\""
-                ;;
+                    arg = "$(echo $arg | sed 's/\.Z$//')" # (a)
+                    zlist = "$zlist \"$arg\"" # (b)
+                     ;;
+               *.gz) $ugz "$arg"
+                     arg = "$(echo $arg | sed 's/\.gz$//')"
+                     gzlist = "$gzlist \"$arg\""
+                     ;;
+               *.bz2) $ubz "$arg"
+                      arg = "$(echo $arg | sed 's/\.bz2$//')"
+                      bzlist = "bzlist \"$arg\""
+                     ;;
            esac
         fi
 
