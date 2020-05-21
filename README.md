@@ -1,19 +1,19 @@
 # Shell_compress
 Compress &amp; Uncompress in Unix-liked OS
 
-# Common Usage for sed
+* Common Usage for sed
 
 https://charleslin74.pixnet.net/blog/post/419884144
 
-# Common Compress Tools
+* Common Compress Tools
 
-* compress and its object file is .z in extension name.
+    * compress and its object file is .z in extension name.
 
-* gzip and its object file is .gz in extension name.
+    * gzip and its object file is .gz in extension name.
 
-* bzip2 and its object file is .bz2 in extension name.
+    * bzip2 and its object file is .bz2 in extension name.
 
-# Script
+* Script
 
     #!bin/bash/
     #vivycompressor
