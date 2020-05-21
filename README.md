@@ -27,11 +27,7 @@ Compress &amp; Uncompress in Unix-liked OS
    
       直接在檔案內容中進行操作。
       
-   * ; delimeter
-   
-   *  -  delimeter
-   
-   * | delimeter
+   * delimeter ; , - , |
    
    內文剛好出現分隔符的時侯，就可以派上用場。例如可以把$ echo /A/ | sed 's/\/A\//\/B\//'
    改寫成 $ echo /A/ | sed 's:/A/:/B/:' 。
