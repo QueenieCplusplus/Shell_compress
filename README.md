@@ -81,8 +81,6 @@ Compress &amp; Uncompress in Unix-liked OS
 
 * Syntax
 
-(to be wait for check...)
-
   * (a) sed 's/\.Z$//'
   
          use sed 's/ replaced / replace /' cmd to do string replacement.
