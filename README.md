@@ -82,7 +82,7 @@ Compress &amp; Uncompress in Unix-liked OS
   * (b) $zlist \"$arg\"
   
          "bzlist \"$arg\""  
-         the inside double-quote to escape. 
+         the inside back slash to escape. 
   
   * (c) >&2
   
