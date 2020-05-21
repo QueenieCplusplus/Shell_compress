@@ -15,9 +15,14 @@ Compress &amp; Uncompress in Unix-liked OS
    
       把結果輸出到另一個檔案。
       
-   * 
+   * sed -s
    
+      取代結果輸出，不改變檔案內容。
+      
+   * sed -i
    
+      直接在檔案內容中進行操作。
+ 
 
    https://blog.codylab.com/sed-substitute-s-command/
 
