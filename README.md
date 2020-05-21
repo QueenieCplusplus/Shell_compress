@@ -122,6 +122,8 @@ Compress &amp; Uncompress in Unix-liked OS
  
   * Link, 軟連結與硬連結
   
+    https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/
+  
    為了適當作業，腳本有三個名稱，如何產生彼此之間可以互相合作的關係，可藉由呼叫連結符號，他們是一種儲存著目的檔案的特殊檔案，亦可使用硬連結，是實際儲存著和被連結的檔案擁有相同的 inode，如上腳本為 zcat，經由連結符號 ln -s ，利用連結符號將 zmore 和 zgrep 都指向 zcat，一旦完成連結，這三種指令就擁有相同內容了。
    
         $ ln -s zcat zmore
