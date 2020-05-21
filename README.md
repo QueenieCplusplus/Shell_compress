@@ -116,13 +116,15 @@ Compress &amp; Uncompress in Unix-liked OS
         
         $ zgrep < word_u_wanna_search_for > < file name >
 
-        $ ln -s zcat zmore
-        $ ln -s zcat zgrep
-
         $ ls -l < file name>*
 
 * Related Info
  
-軟連結與硬連結：
-軟連
+  * Link, 軟連結與硬連結
+  
+   為了適當作業，腳本有三個名稱，如何產生彼此之間可以互相合作的關係，可藉由呼叫連結符號，他們是一種儲存著目的檔案的特殊檔案，亦可使用硬連結，是實際儲存著和被連結的檔案擁有相同的 inode，如上腳本為 zcat，經由連結符號 ln -s ，利用連結符號將 zmore 和 zgrep 都指向 zcat。
+   
+        $ ln -s zcat zmore
+        $ ln -s zcat zgrep
+
 
