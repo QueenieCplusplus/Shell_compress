@@ -83,7 +83,7 @@ Compress &amp; Uncompress in Unix-liked OS
 
   * (a) sed 's/\.Z$//'
   
-         use sed cmd to do string replacement.
+         use sed 's/ replaced / replace /' cmd to do string replacement.
   
   * (b) $zlist \"$arg\"
   
