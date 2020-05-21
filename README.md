@@ -107,7 +107,9 @@ Compress &amp; Uncompress in Unix-liked OS
 
 * Syntax
 
-  * (a) sed 's/\.Z$//'
+  * (a)  sed 's  /  '
+  
+         sed 's/\.Z$//'
   
          use sed 's/ replaced / replace /' cmd to do string replacement.
   
