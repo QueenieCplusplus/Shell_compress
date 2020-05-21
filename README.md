@@ -81,6 +81,9 @@ Compress &amp; Uncompress in Unix-liked OS
   
   * (b) $zlist \"$arg\"
   
+         "bzlist \"$arg\""  
+         the inside double-quote to escape. 
+  
   * (c) >&2
   
           1 means stdout
