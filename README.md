@@ -1,6 +1,10 @@
 # Shell_compress
 Compress &amp; Uncompress in Unix-liked OS
 
+# Common Usage for sed
+
+https://charleslin74.pixnet.net/blog/post/419884144
+
 # Common Tools
 
 * compress and its object file is .z in extension name.
