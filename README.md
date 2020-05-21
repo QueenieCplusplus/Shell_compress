@@ -29,8 +29,13 @@ Compress &amp; Uncompress in Unix-liked OS
       
    * delimeter ; , - , |
    
-   內文剛好出現分隔符的時侯，就可以派上用場。例如可以把$ echo /A/ | sed 's/\/A\//\/B\//'
-   改寫成 $ echo /A/ | sed 's:/A/:/B/:' 。
+   內文剛好出現分隔符的時侯，就可以派上用場。例如可以把
+   
+        $ echo /A/ | sed 's/\/A\//\/B\//'
+        
+   改寫成 
+   
+        $ echo /A/ | sed 's:/A/:/B/:' 。
  
    https://blog.codylab.com/sed-substitute-s-command/
 
