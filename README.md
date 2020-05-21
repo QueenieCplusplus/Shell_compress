@@ -1,10 +1,6 @@
 # Shell_compress
 Compress &amp; Uncompress in Unix-liked OS
 
-* Common Usage for sed
-
-https://charleslin74.pixnet.net/blog/post/419884144
-
 * Common Compress Tools
 
     * compress and its object file is .z in extension name.
@@ -12,6 +8,10 @@ https://charleslin74.pixnet.net/blog/post/419884144
     * gzip and its object file is .gz in extension name.
 
     * bzip2 and its object file is .bz2 in extension name.
+    
+* Common Usage for sed
+
+   https://charleslin74.pixnet.net/blog/post/419884144
 
 * Script
 
@@ -82,6 +82,8 @@ https://charleslin74.pixnet.net/blog/post/419884144
 (to be wait for check...)
 
   * (a) sed 's/\.Z$//'
+  
+         use sed cmd to do string replacement.
   
   * (b) $zlist \"$arg\"
   
