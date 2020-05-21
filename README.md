@@ -97,6 +97,8 @@ Compress &amp; Uncompress in Unix-liked OS
   
   * (d) -z
   
+          When -z is used, a zero byte (the ascii ' NUL ' character) is added between the lines (instead of a new line).
+  
   * (e) eval
 
 
