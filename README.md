@@ -11,6 +11,14 @@ Compress &amp; Uncompress in Unix-liked OS
     
 * Common Usage for sed
 
+   * sed -f
+   
+      把結果輸出到另一個檔案。
+      
+   * 
+   
+   
+
    https://blog.codylab.com/sed-substitute-s-command/
 
    https://charleslin74.pixnet.net/blog/post/419884144
