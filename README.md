@@ -83,6 +83,15 @@ Compress &amp; Uncompress in Unix-liked OS
   
   * (c) >&2
   
+          1 means stdout
+          2 means stderr
+          
+          & is reference to file_val
+  
+          command > output is just a shortcut for command 1> output ; You can use &[FILE_DESCRIPTOR] to reference a file descriptor value; 
+
+          Using 2>&1 will redirect stderr to whatever value is set to stdout (and 1>&2 will do the opposite).
+  
   * (d) -z
   
   * (e) eval
