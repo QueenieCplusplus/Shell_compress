@@ -29,7 +29,7 @@ Compress &amp; Uncompress in Unix-liked OS
       
    * ; delimeter
    
-   * - delimeter
+   *  -  delimeter
    
    * | delimeter
    
