@@ -5,7 +5,7 @@
 
 Z='compress'; uz='uncompress'; zlist=''
 gz='gzip'; ugz='ungzip'; gzlist=''
-bz='bzip2'; ubz='unbzip2' blist=''
+bz='bzip2'; ubz='unbzip2' ; blist=''
 
 # 隔離檔案名稱
 # 藉由副檔名檢查是否為壓縮檔
