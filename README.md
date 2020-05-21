@@ -11,6 +11,8 @@ Compress &amp; Uncompress in Unix-liked OS
     
 * Common Usage for sed
 
+   https://blog.codylab.com/sed-substitute-s-command/
+
    https://charleslin74.pixnet.net/blog/post/419884144
 
 * Script
