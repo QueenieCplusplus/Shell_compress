@@ -31,7 +31,7 @@ Compress &amp; Uncompress in Unix-liked OS
    
    內文剛好出現分隔符的時侯，就可以派上用場。例如可以把
    
-        $ echo /A/ | sed 's/\/A\//\/B\//' #escape using backslash \\
+        $ echo /A/ | sed 's/\/A\//\/B\//' #escape using one backslash \ in suffix
         
    改寫成 
    
