@@ -120,6 +120,8 @@ Compress &amp; Uncompress in Unix-liked OS
   
   * (c) >&2
   
+     https://github.com/QueenieCplusplus/Shell_echo/blob/master/README.md#--
+  
           1 means stdout
           2 means stderr
           
